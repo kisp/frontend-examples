@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="bg-blue-800 border-2 py-10 flex items-center">
+      <nav class="container mx-auto">
+        <ul class="flex gap-4 text-3xl mx-8 flex-col md:flex-row">
+          <li><a href="#" class="text-white hover:text-blue-200">Home</a></li>
+          <li>
+            <a href="#" class="text-white hover:text-blue-200">Products</a>
+          </li>
+          <li>
+            <a href="#" class="text-white hover:text-blue-200">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <header class="mt-12 bg-blue-800 border-2 py-10 flex items-center">
+      <nav class="container mx-auto border border-orange-500">
+        <ul
+          class="flex gap-4 text-3xl mx-8 border border-yellow-500 flex-col md:flex-row"
+        >
+          <li>
+            <a
+              href="#"
+              class="text-white hover:text-blue-200 border border-black"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-white hover:text-blue-200 border border-black"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-white hover:text-blue-200 border border-black"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="mt-12 text-center text-4xl text-white py-4 bg-midnight">
+      <p class="md:hidden">Mobile</p>
+      <p class="hidden md:block lg:hidden">Tablet</p>
+      <p class="hidden lg:block">Laptop</p>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
